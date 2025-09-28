@@ -1,5 +1,6 @@
 import React, { use, useEffect, useState } from "react";
-import "./app.css";
+import "./App.css";
+
 const App = () => {
   const [disabledState, setDisabledState] = useState(true);
   const [disabledCity, setDisabledCity] = useState(true);
